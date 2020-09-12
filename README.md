@@ -1,21 +1,3 @@
-# LaravelChargebee
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://travis-ci.org/TijmenWierenga/LaravelChargebee.svg?branch=master)](https://travis-ci.org/TijmenWierenga/LaravelChargebee)
-[![Total Downloads][ico-downloads]][link-downloads]
-
-A Laravel package which provides an easy way to handle billing and subscriptions by making use of [Chargebee](https://www.chargebee.com)'s subscription software.
-
-## Introduction
-
-LaravelChargebee (LC) is a membership management tool which handles your billing and recurring subscriptions with minimal effort. This easy-to-install package will cover the most important features for a successful subscription system:
-* Create recurring subscriptions in a very flexible way:
-    * Add add-ons, coupons or even one-time charges
-* Change existing subscriptions
-* Cancel subscriptions
-* All of this through a fluent API or by using Chargebee's secure hosted pages.
-
 ## Install
 
 If you haven't got an account on Chargebee, create one [here](https://www.chargebee.com/trial-signup.html).
@@ -230,27 +212,3 @@ To run the PHPUnit tests, run the following composer command from the base direc
 $ composer run test
 ```
 
-## Security
-
-If you discover any security related issues, please email tijmen@floown.com instead of using the issue tracker.
-
-## Credits
-
-- [Tijmen Wierenga][link-author]
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/tijmen-wierenga/laravel-chargebee.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/tijmen-wierenga/laravel-chargebee/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/tijmen-wierenga/laravel-chargebee.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/tijmen-wierenga/laravel-chargebee.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/tijmen-wierenga/laravel-chargebee.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/tijmen-wierenga/laravel-chargebee
-[link-travis]: https://travis-ci.org/TijmenWierenga/LaravelChargebee
-[link-downloads]: https://packagist.org/packages/tijmen-wierenga/laravel-chargebee
-[link-author]: https://github.com/TijmenWierenga
-[link-contributors]: ../../contributors
